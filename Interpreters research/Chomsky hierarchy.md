@@ -10,5 +10,3 @@ Chomsky hierarchy describes 4 different classes of formal grammars:
 2) Context free
 1) Context sensitive
 0) Recursively enumerable
-
-# Regular grammars

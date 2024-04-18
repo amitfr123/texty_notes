@@ -3,7 +3,7 @@
 
 # Interpreter basics
 ## The components of an interpreter
-1) **Scanning / lexical analysis** - Taking a linear stream of characters and separating them to separate tokens.
+1) **[[Lexical analysis(scanning)]]** - Taking a linear stream of characters and separating them to separate tokens.
 2) **Parsing** - Taking a flat sequence of tokens and building a tree that mirrors the language syntax. This tree may be called by several names parse tree, abstract syntax tree (**AST**) or just trees. This stage is also the stage in which **syntax errors** are detected.
 3) **Static analysis** - After parsing we know which expressions are nested in which but we don't know much more. This means we need to do stuff like:
 	1. **Binding/Resolution** - For each identifier we need to find where it is defined. This is where **scopes** comes to play.
